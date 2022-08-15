@@ -9,7 +9,7 @@ services:
     links:
       - influxdb
     ports:
-    - '127.0.0.1:8125:8125/udp'
+    - '127.0.0.1:8094:8094/udp'
 
   influxdb:
     image: influxdb:1.8-alpine
